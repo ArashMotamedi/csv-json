@@ -1,0 +1,30 @@
+textarea {
+    border: 1px solid #0003;
+    width: 100%;
+    height: 100%;
+    resize: none;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    flex-grow: 1;
+}
+
+.left, .right {
+    /* border: 1px solid #0003; */
+    height: 100%;
+}
+
+.left {
+    flex: 1;
+    margin-right: 10px;
+}
+.right {
+    flex: 1;
+}
